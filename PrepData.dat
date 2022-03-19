@@ -1,0 +1,22 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: almog
+ * Creation Date: Aug 26, 2021 at 11:44:27 AM
+ *********************************************/
+
+SheetConnection sheet("Small.xlsx");
+S from SheetRead (sheet, "S");
+
+/* Part A - Export 'B_round' to XL */
+/*
+B_round to SheetWrite (sheet,"B_round");
+*/
+
+/* Part B - Once we have the 'B_round' matrix, calculate two more matrices and export them to XL */
+/* Before running this part - delete '/*' from part B , and add for Part A */
+
+t from SheetRead (sheet, "t");
+B_round from SheetRead (sheet, "B_round");
+
+Num_Stations_in_Between to SheetWrite (sheet,"NSiB");
+Time_Between_Stations to SheetWrite (sheet,"TBS");

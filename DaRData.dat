@@ -1,0 +1,20 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: almog
+ * Creation Date: Aug 25, 2021 at 8:33:02 PM
+ *********************************************/
+SheetConnection sheet("Small.xlsx");
+
+alpha1 from SheetRead (sheet, "alpha1");
+alpha2 from SheetRead (sheet, "alpha2");
+Capacity from SheetRead (sheet, "Capacity");
+L from SheetRead (sheet, "L");
+n from SheetRead (sheet, "n");
+S from SheetRead (sheet, "S");
+t from SheetRead (sheet, "t");
+V from SheetRead (sheet, "V");
+requests from SheetRead (sheet, "requests");
+sigma from SheetRead (sheet, "sigma");
+B_round from SheetRead (sheet, "B_round");
+Num_Stations_in_Between from SheetRead (sheet, "NSiB");
+Time_Between_Stations from SheetRead (sheet, "TBS");

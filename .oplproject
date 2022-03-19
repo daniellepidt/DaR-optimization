@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="Configuration1" category="opl">
+			<ref name="DaR.mod" type="model">
+			</ref>
+			<ref name="DaRData.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="DaR_Prep_C" category="opl">
+			<ref name="Prep.mod" type="model">
+			</ref>
+			<ref name="PrepData.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="DaR_Prep_Time" category="opl">
+			<ref name="DaR_Prep_T.mod" type="model">
+			</ref>
+			<ref name="DaR_Prep_TData.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
